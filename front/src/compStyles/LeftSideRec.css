@@ -1,0 +1,130 @@
+
+.d-none {
+    display: none;
+}
+
+
+
+
+.left-container {
+    height: 100%;
+    width: 100%;
+}
+
+.recepies-bar {
+    height: 100%;
+}
+
+.image-container {
+    height: 250px;
+    width: 250px;
+}
+
+.recepieChoose {
+    background: #ebe9e9;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.recepieChooseOnOf {
+    width: 9rem;
+    background: #ebe9e9;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.main-menu {
+    list-style: none;
+    width: 100%;
+}
+
+.main-menu li {
+    box-sizing: border-box;
+    border-bottom: 1px dashed #dedede;
+    text-align: left;
+    width: 100%;
+}
+
+.main-menu > li {
+    list-style-type: none;
+    position: relative;
+}
+
+.main-menu > li::before {
+    content: "";
+    width: 6px;
+    height: 6px;
+    border: 1px solid #fbd018;
+    border-radius: 4px;
+    position: absolute;
+    left: 10px;
+    top: 16px;
+}
+
+.main-menu > li:hover {
+    content: #fbd018;
+}
+
+.main-menu > li:hover::before {
+    background-color: #fbd018;
+}
+
+
+.main-menu li a {
+    display: block;
+    line-height: 40px;
+    padding: 0 10px 0 30px;
+    color: #444;
+    font-size: 14px;
+}
+
+.main-menu li a:hover {
+    color: #88b2da;
+}
+
+.leftBox {
+    background-color: #88b2da;
+    display: inline-block;
+    width: 50px;
+    padding: 0;
+    height: 50px;
+}
+
+.rightBox {
+    display: inline-block;
+    background-position: center;
+    background-size: cover;
+    width: 50px;
+    padding: 0;
+    height: 50px;
+}
+
+.rightBoxOnOf {
+    display: inline-block;
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    padding: 0;
+    height: 8rem;
+}
+
+.middleBox {
+    position: relative;
+    width: 100%;
+    background: #94BEE6;
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+    padding-left: 2rem;
+}
+
+.middleBox span {
+    position: absolute;
+    color: #fff;
+    top: 33px;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.tool-recepies {
+    position: absolute;
+    z-index: 1;
+    background-color: #dedede;
+}
